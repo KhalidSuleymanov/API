@@ -1,0 +1,47 @@
+header {
+  background-color: red;
+  padding: 25px 0;
+  width: 100%;
+}
+header a {
+  color: antiquewhite;
+  font-size: 20px;
+  text-decoration: none;
+}
+header i {
+  position: relative;
+  font-size: 28px;
+}
+header i span {
+  position: absolute;
+  font-size: 12px;
+  background-color: white;
+  color: black;
+  padding: 4px 6px;
+  border-radius: 50%;
+  top: -12px;
+}
+
+.card {
+  border: 1px solid black;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.alertbox {
+  background-color: rgb(10, 97, 97);
+  text-align: center;
+  color: aliceblue;
+  width: 15%;
+  font-size: 25px;
+  height: 6vh;
+  position: absolute;
+  bottom: 20px;
+  right: -15%;
+  border-radius: 5px;
+  transition: 1s;
+  position: fixed;
+  z-index: 1;
+}/*# sourceMappingURL=style.css.map */

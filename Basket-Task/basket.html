@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./Assets/style.css">
+    <link rel="stylesheet" href="./Assets/bootstrap.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <a href="index.html">Basket</a>
+                </div>
+                <div class="col-lg-10 text-end">
+                    <a href="basket.html">
+                        <i class="fa-solid fa-basket-shopping"><span id="count">0</span></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+   <div class="btn-and-h d-flex justify-content-between mt-4">
+    <button class="btn btn-warning btn_clear" >Clear All Phones</button>
+    <h2 class="h-des me-4" >Məhsul sayı: <span id = "cnt"></span></h2>
+   </div>
+    <section id="PhoneList">
+        <div class="container">
+           
+            <div class="row rowlist">
+            </div>
+        </div>
+    </section>
+    <div class="alert alert-danger text-center fw-bold mt-4 w-50 mx-auto">
+        Səbətiniz boşdur....
+    </div>
+
+
+    <script src="./Assets/index.js"></script>
+    <script src="./Assets/basket.js"></script>
+
+</body>
+
+</html>
